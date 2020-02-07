@@ -6,6 +6,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // Now we can consume the session info here
   const { session } = useContext(DidSessionContext);
 
   let sessionMarkup = null;
