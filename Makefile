@@ -14,9 +14,11 @@ travis-init:
 
 install:
 	@echo "Install software required for this repo..."
+	@npm install -g yarn
 
 dep:
 	@echo "Install dependencies required for this repo..."
+	@yarn
 
 pre-build: install dep
 	@echo "Running scripts before the build..."
@@ -52,6 +54,7 @@ watch:
 
 run:
 	@echo "Running the software..."
+	@yarn start
 
 include .makefiles/*.mk
 
