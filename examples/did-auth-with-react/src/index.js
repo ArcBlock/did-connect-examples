@@ -6,8 +6,11 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-const appDid = "zNKo11Ah1Y6w4oaizU4YgcRmB2Z5CTsmSmPR";
-const serviceHost = "http://connect-dev.arcblockio.cn";
+// const appDid = "zNKo11Ah1Y6w4oaizU4YgcRmB2Z5CTsmSmPR";
+// const serviceHost = "http://connect-dev.arcblockio.cn";
+
+const appDid = "zNKkYPct7wrDyZM3ZDB9P7FoBHWk8iipujyZ";
+const serviceHost = "http://192.168.1.5:4040";
 
 const WrappedApp = () => (
   <DidSessionProvider appDid={appDid} serviceHost={serviceHost}>

@@ -4,6 +4,7 @@
 
 .App-logo {
   height: 10vmin;
+  border-radius: 5vmin;
   pointer-events: none;
   margin-bottom: 16px;
 }
@@ -25,4 +26,9 @@
 
 p {
   margin: 0.5rem;
+}
+
+strong {
+  color: #61dafb;
+  font-weight: bold;
 }
