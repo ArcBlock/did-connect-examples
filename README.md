@@ -5,3 +5,4 @@ Monorepo that contains example projects developers can reference when integratio
 ## Examples
 
 - [DID Auth with React](./examples/did-auth-with-react): Working example that bootstrapped with `create-react-app`.
+- [OAuth2 example of Express.js](./examples/oauth2-expressjs)
