@@ -1,0 +1,31 @@
+language: android
+sudo: false
+cache:
+  directories:
+  - "$HOME/travis/.rvm/"
+  - "$HOME/Library/Caches/Homebrew"
+  - "$HOME/travis/.gradle/"
+  - "$HOME/android-sdk-dl"
+  - "$HOME/android-sdk"
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+  - "$HOME/.android/build-cache"
+branches:
+  only:
+  - master
+android:
+  components:
+  - build-tools-28.0.3
+  - android-28
+  - extra-android-m2repository
+  - extra-android-support
+before_install:
+- openssl aes-256-cbc -K $encrypted_800cffc1b811_key -iv $encrypted_800cffc1b811_iv
+  -in secring.gpg.enc -out secring.gpg -d
+script: make travis
+env:
+  global:
+  - secure: Uf4xrvX5hkJ9wphCFaFZk9fMEcV7cND1lmD3XQi8JeYFI5CK82y8ayAOSsergysrCRO/dlGFvtD181q4Eai9U1RAbf/FP7sFyoS89QiNgCb1AkFACnaOtrTNLSFIYTq/BVSWY1d1QyJxep9AvdbHIcVXTT94uj2n76agLAFbaN+kmPrFIKCkgP0E4fMDbTIsQAK1VoFh1mVwTRgNipKkWKqdo2ujYyxRCD+vmQoyfBcf/WA2xEbxvEb4qlqAbxGIQ7xJFiXSqqAgZBnRFlQb7wflKAMTI3nIkK7upCB4+GPHGRkSzLM9W/cG/sESbW4yc3aBoadY0vfrD5sjZkJBIy/sxu8xpb2J6xLDGzSbRUs7sqUc9qc3KZ7dlXHE/b3pRM5EGDO0TcSHKNx8lLUPMkc6Q80QSnGbCicdsP7Kyn0Yu3iMS+SZFEszWXs+0nlmcSlRpp3TMiWUGiJk3QvddsqZ8kaCznrZvoN0eNdzfgq9SP55HRMcpykBlEpfNktHqXDvdsAGqJfB4fQlWB4UXX9kJON8NA3fmcgfIGujP3Tlxezq4AjPmJLqNHACc7v8l1lTrAmii0Xw/hagxAdZe75Fy1imB4Gv/oJw3/viTTi/4U404YOdRWXhM3cZKfGKZ80m8YhXqi49q5Hr0FLkkY3tEXawce87G7yha/vv01Y=
+  - secure: 3v+nCpVN7YQX/Q2NHdDtwuLOeiaR24wuqB+YoSkhPf/B97t0sFZ7RvSYxL+UqEuHimJ9oJ9foedqkm8c/kXnuwqiE7q8Rmzncu3C2pgccRgbBxtdmtGTPibjkx+CqKtEJmh6Mnpbm2gz0DzNSFw8PSxxvXSkF981idzCIdDsJjEwjUMaZjTVjqYEh4PJM5iylSa1+eyfPXgmnQ+6Z8UAnC+KkVdG1xHoMMdOyDIrPZEi1R/UKK92gBnX7kCkCKDT90EipNUencL2KF5o7ueMQa3wuPKl2Aa+r74xdXIbaixP2yZiKBh+38Dnva3PXSV8DBc2x328L6BfrMzGeqtcbsOlzqsfBB/+ivlFAebAmxyZSYtyhJopscZvikONQtrqiR2IKsVM4Gv54AkLmbbgUl9VxDToK2hyzrr6/SHLS0Rr4c2OrEPji/eGKNfCzOo3ZpBNhce+2FNEGXsQ6Zy3TeUGmeGZdomknTawzeCcRoeSC79pq/uNmj7URu/yMglBzP5lEED4ptJaI2u8M97ws4YgwSheV+l1dw1wD3PN1HJaZRDAVKYiG6ToZV7hj8N9GiWyxScdpVINCo+lIBlFdW8w9stfr9P9cC20ix78myH5PAZNxrsuOTrj4xtecFGsXGdO3k+nNLOUkAL2weJbTgLGlae3m36lIsB9K2iyd8U=
+  - secure: nqHpvYQ9XhTKtqzNapL/1756fZz3m243rVBTJXvyBNVwaiiarnIz5ITuzYTVfyuQmN7hotRCKF0vG2qLG410oxCqyO4Bc5HoXMFU9sY1fj3vjVHWeIctFc5zJZwC4on1beDPVev4G6d8jNlMP81mGcHGRZpaZ+SLCrHtT5p7dBq/fAWebIl6BzNqUHvMqzBWJ9Uypdif69rrW424CnVfKb/nsAgKgWZ71K/JqVgY5cBZX8iVsslD252BqG+1UTW0Ez+C/37MvAJ000SUaPRzHdbhxPNxJJusidKtu1+UzAbME/jlBbfMTVxQx1sAfvDsei0ePgCVYRS6PTBTQg9eQYj2ADqD/r1iTTfGad3jWp/a+0PHYkM3GSzbI7HWj89UC4RydSxNHE31E9dG5vCM7N035gOlV0qFBu46JkCkfWZ/Dvlf8B2FuNALhEmn6E2JZjBFC7UYVULoXmTJ0Kte+kQLQVgKM1l4ulULppUlp7h2mv17AeSAdZN+Z7juk8VlA9t3B/nnvI0BLP2G3isBKMcZ6ADCxVAPRJpvZNVvHcgbwBXDfzhW9jgiflV65t2Dc/QTPRg4ouaLxttfDDir6B6dJsA4zU2KSjT31HeHCzoxC7t6oS+uRNeOztwjqPdykgCI0cc3tHfeOpSpCmBa0Vammg/sxCLuCRqlf2P/ggY=
+  - secure: zO/qfT9mHeiUXCrR6bho3z+XY/b9N+kZIAS1WGQrHhLby+Bxvf9f74yyUvcDj5xcjhk+UCDDbufFnk7hdmUT/ETYnOAAX/T5ABCB/kuN/E67Fp8eq6IVx9yqHIpU+0DHpxamzLGP1PWhPJUE1edShXdLNQ9mOVQCTzCs3U6TeNS+sLgu3y/DG99q56PPvS7e8G/sx2pW6d9kk6TjM9AdgPh3gzCMyNTkLYS+SYYWxfPpXLmQoHTXNFX4H6UUWl0+k3fiyr7LfE5AIJ65NqHHUvZUx83YtfItuDaF8MFw3ICA1kFBDQ7qNsHeSXKYmMOp20HQkxjuDJ0ZEkLYUD6Cd0avw/r8LrKij/eq1EO3BlrLMx9esaXcTj8TDbZlsmuM+/TP3yykbeyuknryQOW78n17p3/H6rimO1lAqbuyKSIYuyKp4C/htwmeG5jJ83lsaeS0vIqFekDuNqptka/cUn5fVR7fVBSMgKKQ72v4qeBOM9ewd+IySyElloD9HdoJhox56XZNPm2HPlmRVsltKEMZlBsnpkSHfwnB7nY/d/KZTH2GED7du10ExtRooX3fue9IWX3cFQm1CI9sewrXAU5S/l4eLCrFJ7wYnozdX2DL+LP1lN/1XiVRpiHxZ+jsfup7ZXHVJW/UdwQNjbDnPdKykzjeH+FgaQDzgZ//hh4=
