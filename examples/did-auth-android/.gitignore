@@ -1,0 +1,10 @@
+.tmp.mk
+node_modules
+.idea
+.DS_Store
+build/
+local.properties
+*.iml
+oauth/build/
+app/build/
+.gradle
