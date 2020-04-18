@@ -8,7 +8,7 @@ const { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, SERVICE_HOST } = process.env;
 const tokens = {};
 
 const getUser = async (accessToken, userDid) => {
-  const { data } = await axios.get(`${SERVICE_HOST}/api/oauth2/users/${userDid}?access_token=${accessToken}`);
+  const { data } = await axios.get(`${SERVICE_HOST}/api/login/o/oauth2/users/${userDid}?access_token=${accessToken}`);
   return data;
 };
 
@@ -34,7 +34,7 @@ router.get('/api/user', async (req, res) => {
     const { code } = req.query;
 
     const { data: token } = await axios.post(
-      `${SERVICE_HOST}/api/oauth2/token`,
+      `${SERVICE_HOST}/api/login/o/oauth2/token`,
       querystring.stringify({
         client_id: CLIENT_ID,
         client_secret: CLIENT_SECRET,

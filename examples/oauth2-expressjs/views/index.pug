@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= 授权成功
+  - var link = '/api/user?code=' + code
+  h2 授权成功
   p Authorization Code: #{code}
+  h2 获取用户信息
+  a(href=link) 获取用户信息: #{link}

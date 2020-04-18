@@ -20,3 +20,15 @@ SERVICE_HOST=http://localhost:3000 # connect service host
 
 2. Install Dependencies: `npm install`
 3. Start: `npm start`
+
+## Demo Steps
+
+Assuming the local service port is 3005.
+
+### Get Authorization Code
+
+Visit homepage: `http://localhost:3005/`, after authorized, the authorization code will be printed on page.
+
+### Get User
+
+Use the api: `http://localhost:3005/api/user?code={authorization code}`
