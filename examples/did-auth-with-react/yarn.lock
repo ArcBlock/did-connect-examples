@@ -2,30 +2,30 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^0.67.0":
-  version "0.67.0"
-  resolved "https://registry.npmjs.org/@arcblock/did-connect/-/did-connect-0.67.0.tgz#e77575db3609b25044c379a5b10e460c0b86f980"
-  integrity sha512-fMgKIctKFfCJiP9MwtGtaL14pKLezSHWABbnutyOeRqsehpsg8WZGNmqDQrNyTcZt16sbsHi8JWGPpNBfPam7A==
+"@arcblock/did-connect@^0.75.3":
+  version "0.75.3"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-0.75.3.tgz#1605da38994d298b7de3f05b3b1b2624819d0473"
+  integrity sha512-53dndrt6VwKr7ftYc5zTQxNiPhF/zMZBTzzn7UoxvOJNJXp0rRZl63JTgVYr3oBd+b1/CAV1hBBvnx7WD2aJSA==
   dependencies:
-    "@arcblock/did-react" "^0.67.0"
-    "@arcblock/ux" "^0.67.0"
-    "@material-ui/core" "^4.9.1"
-    axios "^0.19.0"
+    "@arcblock/did-react" "^0.75.3"
+    "@arcblock/ux" "^0.75.3"
+    "@material-ui/core" "^4.9.7"
     core-js "^3.6.4"
     react-use "^13.22.4"
     styled-components "^5.0.0"
 
-"@arcblock/did-react@^0.67.0":
-  version "0.67.0"
-  resolved "https://registry.npmjs.org/@arcblock/did-react/-/did-react-0.67.0.tgz#fc3e433c9d78af6e5d11100dae59ed4262b56318"
-  integrity sha512-S5sdknixIAcPK1lLRo4GqjVx1ZTorgTGWRB1He059ultNws/KUFdo9jM+JMEwwYuYpPUh+7taD/vGefJwIJ2UQ==
+"@arcblock/did-react@^0.75.3":
+  version "0.75.3"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-react/-/did-react-0.75.3.tgz#226f7de6c729ebba32d8ca6a6c4b4a5063435528"
+  integrity sha512-zhPpwN3u4NyxY0OfdHJunoodEsVUqK39rfi2DjKmuSY++82jcTuTQBXPj3gBwjSBbHlb0jWMyRpR/X03PgNTBw==
   dependencies:
     "@arcblock/event-client" "^1.0.23"
-    "@arcblock/react-hooks" "^0.67.0"
-    "@arcblock/ux" "^0.67.0"
-    "@material-ui/core" "^4.9.1"
+    "@arcblock/react-hooks" "^0.75.0"
+    "@arcblock/ux" "^0.75.3"
+    "@material-ui/core" "^4.9.7"
+    axios "^0.19.2"
     core-js "^3.6.4"
-    ismobilejs "^0.5.2"
+    dsbridge "3.1.4"
     qrcode.react "^1.0.0"
     react-load-script "^0.0.6"
     react-use "^13.22.4"
@@ -42,28 +42,30 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/react-hooks@^0.67.0":
-  version "0.67.0"
-  resolved "https://registry.npmjs.org/@arcblock/react-hooks/-/react-hooks-0.67.0.tgz#57522c479c9b77429374e60bf6fc4c9efa31f017"
-  integrity sha512-9uMOwTkoZJmcTrAJDfNkvtB9fFKLRly4nnD88A9ml/sgwqiet/l+TqkmhKEeUu701V17W9VNEY8S8WTpOAbTvA==
+"@arcblock/react-hooks@^0.75.0":
+  version "0.75.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-0.75.0.tgz#a3cf2151c1acde2f9e3d948f4510963a2b207627"
+  integrity sha512-3+oLdF0h6guEmKNAVi4xyFKcKMOXkWMWt9rfAYRpx3fF61/rbpyW/b412heSjdrUQyJ/px1ha3QWi7oR/qqQow==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
-    qrcode.react "^1.0.0"
-    react-load-script "^0.0.6"
+    ismobilejs "^1.0.3"
 
-"@arcblock/ux@^0.67.0":
-  version "0.67.0"
-  resolved "https://registry.npmjs.org/@arcblock/ux/-/ux-0.67.0.tgz#409a1b4baa5a0eef65e498b75f3d73986ac9c921"
-  integrity sha512-pRViHcnVXzO3beI3zJ3tnTDALx4HAYjmI/Y6SF+p0wGIXKeiGSIfOhfPKUvOrjOblwh9HdPNFwnZP5gI6VPr/A==
+"@arcblock/ux@^0.75.3":
+  version "0.75.3"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-0.75.3.tgz#c514d37d83d3404eb53faf4ed0ce7b011dcb61b4"
+  integrity sha512-4x+5MiOKp4m207wU0gHhuJLx+7QTnA3TsP3s5mESKjUXHRjxbodLfhU5fSjJgWGn06NVUZm9YgWW7DTKB/bNcA==
   dependencies:
-    "@arcblock/react-hooks" "^0.67.0"
+    "@arcblock/react-hooks" "^0.75.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@material-ui/core" "^4.9.1"
+    "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
+    axios "^0.19.2"
+    browser-lang "^0.1.0"
     copy-to-clipboard "^3.2.0"
     core-js "^3.6.4"
     d3-geo "^1.11.6"
+    devices.css "^0.1.15"
     graphiql "^0.13.2"
     graphiql-code-exporter "^2.0.5"
     graphiql-explorer "^0.4.3"
@@ -987,10 +989,10 @@
   resolved "https://registry.npm.taobao.org/@csstools/normalize.css/download/@csstools/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha1-8JULuhiBlRLUL3GX5WxRiqSRzxg=
 
-"@emotion/hash@^0.7.4":
-  version "0.7.4"
-  resolved "https://registry.npm.taobao.org/@emotion/hash/download/@emotion/hash-0.7.4.tgz?cache=0&sync_timestamp=1577065770152&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40emotion%2Fhash%2Fdownload%2F%40emotion%2Fhash-0.7.4.tgz#f14932887422c9056b15a8d222a9074a7dfa2831"
-  integrity sha1-8UkyiHQiyQVrFajSIqkHSn36KDE=
+"@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+  integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
 "@emotion/is-prop-valid@^0.8.3":
   version "0.8.6"
@@ -1194,22 +1196,21 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@material-ui/core@^4.9.1":
-  version "4.9.1"
-  resolved "https://registry.npm.taobao.org/@material-ui/core/download/@material-ui/core-4.9.1.tgz#8e57382b12a01b35a3fa2a45424528915aef2115"
-  integrity sha1-jlc4KxKgGzWj+ipFQkUokVrvIRU=
+"@material-ui/core@^4.9.7":
+  version "4.9.11"
+  resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.9.11.tgz#02f45f4dbea6db191fdc0d993323d64cfae613fd"
+  integrity sha512-S2Ha9GpTxzl29XMeMc8dQX2pj97yApNzuhe/23If53fMdg5Fmd3SgbE1bMbyXeKhxwtXZjOFxd0vU+W/sez8Ew==
   dependencies:
     "@babel/runtime" "^7.4.4"
-    "@material-ui/styles" "^4.9.0"
-    "@material-ui/system" "^4.9.1"
-    "@material-ui/types" "^5.0.0"
-    "@material-ui/utils" "^4.7.1"
+    "@material-ui/react-transition-group" "^4.2.0"
+    "@material-ui/styles" "^4.9.10"
+    "@material-ui/system" "^4.9.10"
+    "@material-ui/types" "^5.0.1"
+    "@material-ui/utils" "^4.9.6"
     "@types/react-transition-group" "^4.2.0"
-    clsx "^1.0.2"
-    convert-css-length "^2.0.1"
+    clsx "^1.0.4"
     hoist-non-react-statics "^3.3.2"
-    normalize-scroll-left "^0.2.0"
-    popper.js "^1.14.1"
+    popper.js "^1.16.1-lts"
     prop-types "^15.7.2"
     react-is "^16.8.0"
     react-transition-group "^4.3.0"
@@ -1221,18 +1222,28 @@
   dependencies:
     "@babel/runtime" "^7.4.4"
 
-"@material-ui/styles@^4.9.0":
-  version "4.9.0"
-  resolved "https://registry.npm.taobao.org/@material-ui/styles/download/@material-ui/styles-4.9.0.tgz#10c31859f6868cfa9d3adf6b6c3e32c9d676bc76"
-  integrity sha1-EMMYWfaGjPqdOt9rbD4yydZ2vHY=
+"@material-ui/react-transition-group@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@material-ui/react-transition-group/-/react-transition-group-4.2.0.tgz#afec833bbcc79f05a9b4d4828b3e07965cc7e321"
+  integrity sha512-4zapZ0gW1ZTws5aH9OGy3IMvtTV/olc7YrVSkM1WFu1FsrEhL+qarEniRjx7LjHt0gukFqoINfElI8v2boVMQA==
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    dom-helpers "^3.4.0"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
+"@material-ui/styles@^4.9.10":
+  version "4.9.10"
+  resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.9.10.tgz#182ccdd0bc8525a459486499bbaebcd92b0db3ab"
+  integrity sha512-EXIXlqVyFDnjXF6tj72y6ZxiSy+mHtrsCo3Srkm3XUeu3Z01aftDBy7ZSr3TQ02gXHTvDSBvegp3Le6p/tl7eA==
   dependencies:
     "@babel/runtime" "^7.4.4"
-    "@emotion/hash" "^0.7.4"
-    "@material-ui/types" "^5.0.0"
-    "@material-ui/utils" "^4.7.1"
+    "@emotion/hash" "^0.8.0"
+    "@material-ui/types" "^5.0.1"
+    "@material-ui/utils" "^4.9.6"
     clsx "^1.0.2"
     csstype "^2.5.2"
-    hoist-non-react-statics "^3.2.1"
+    hoist-non-react-statics "^3.3.2"
     jss "^10.0.3"
     jss-plugin-camel-case "^10.0.3"
     jss-plugin-default-unit "^10.0.3"
@@ -1243,24 +1254,24 @@
     jss-plugin-vendor-prefixer "^10.0.3"
     prop-types "^15.7.2"
 
-"@material-ui/system@^4.9.1":
-  version "4.9.1"
-  resolved "https://registry.npm.taobao.org/@material-ui/system/download/@material-ui/system-4.9.1.tgz#beb6595e1b164317340bdc5a629a6798fc35f82d"
-  integrity sha1-vrZZXhsWQxc0C9xaYppnmPw1+C0=
+"@material-ui/system@^4.9.10":
+  version "4.9.10"
+  resolved "https://registry.yarnpkg.com/@material-ui/system/-/system-4.9.10.tgz#5de6ec7bea0f222b10b45e5bd5bb8b9a7b938926"
+  integrity sha512-E+t0baX2TBZk6ALm8twG6objpsxLdMM4MDm1++LMt2m7CetCAEc3aIAfDaprk4+tm5hFT1Cah5dRWk8EeIFQYw==
   dependencies:
     "@babel/runtime" "^7.4.4"
-    "@material-ui/utils" "^4.7.1"
+    "@material-ui/utils" "^4.9.6"
     prop-types "^15.7.2"
 
-"@material-ui/types@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.npm.taobao.org/@material-ui/types/download/@material-ui/types-5.0.0.tgz#26d6259dc6b39f4c2e1e9aceff7a11e031941741"
-  integrity sha1-JtYlncazn0wuHprO/3oR4DGUF0E=
+"@material-ui/types@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@material-ui/types/-/types-5.0.1.tgz#c4954063cdc196eb327ee62c041368b1aebb6d61"
+  integrity sha512-wURPSY7/3+MAtng3i26g+WKwwNE3HEeqa/trDBR5+zWKmcjO+u9t7Npu/J1r+3dmIa/OeziN9D/18IrBKvKffw==
 
-"@material-ui/utils@^4.7.1":
-  version "4.7.1"
-  resolved "https://registry.npm.taobao.org/@material-ui/utils/download/@material-ui/utils-4.7.1.tgz#dc16c7f0d2cd02fbcdd5cfe601fd6863ae3cc652"
-  integrity sha1-3BbH8NLNAvvN1c/mAf1oY648xlI=
+"@material-ui/utils@^4.9.6":
+  version "4.9.6"
+  resolved "https://registry.yarnpkg.com/@material-ui/utils/-/utils-4.9.6.tgz#5f1f9f6e4df9c8b6a263293b68c94834248ff157"
+  integrity sha512-gqlBn0JPPTUZeAktn1rgMcy9Iczrr74ecx31tyZLVGdBGGzsxzM6PP6zeS7FuoLS6vG4hoZP7hWnOoHtkR0Kvw==
   dependencies:
     "@babel/runtime" "^7.4.4"
     prop-types "^15.7.2"
@@ -2171,10 +2182,10 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha1-fjPY99RJs/ZzzXLeuavcVS2+Uo4=
 
-axios@^0.19.0:
+axios@^0.19.2:
   version "0.19.2"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha1-PqNsXYgY0NX4qKl6bTa4bNwAyyc=
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
 
@@ -2488,6 +2499,11 @@ brorand@^1.0.1:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/brorand/download/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
+
+browser-lang@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/browser-lang/-/browser-lang-0.1.0.tgz#da9bb26e4f82b4385a51054af5495f6a9de475f7"
+  integrity sha512-p4mdcU9fIsoDtbAVorKtxo5H86mK040MYn96yshyhfN3OF0iySuITgR8IxldI72MJAultMnwqDgwfWWwjUrSsw==
 
 browser-process-hrtime@^0.1.2:
   version "0.1.3"
@@ -2923,10 +2939,10 @@ clone-deep@^4.0.1:
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
 
-clsx@^1.0.2:
+clsx@^1.0.2, clsx@^1.0.4:
   version "1.1.0"
-  resolved "https://registry.npm.taobao.org/clsx/download/clsx-1.1.0.tgz#62937c6adfea771247c34b54d320fb99624f5702"
-  integrity sha1-YpN8at/qdxJHw0tU0yD7mWJPVwI=
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.0.tgz#62937c6adfea771247c34b54d320fb99624f5702"
+  integrity sha512-3avwM37fSK5oP6M5rQ9CNe99lwxhXDOeSWVPAOYF6OazUTgZCMb0yWlJpmdD74REy1gkEaFiub2ULv4fq9GUhA==
 
 co@^4.6.0:
   version "4.6.0"
@@ -3118,11 +3134,6 @@ content-type@~1.0.4:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/content-type/download/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
-
-convert-css-length@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npm.taobao.org/convert-css-length/download/convert-css-length-2.0.1.tgz#90a76bde5bfd24d72881a5b45d02249b2c1d257c"
-  integrity sha1-kKdr3lv9JNcogaW0XQIkmywdJXw=
 
 convert-source-map@1.7.0, convert-source-map@^1.4.0, convert-source-map@^1.7.0:
   version "1.7.0"
@@ -3753,6 +3764,11 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+devices.css@^0.1.15:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/devices.css/-/devices.css-0.1.15.tgz#6e4fa12c02b490f71011f8beeee9dae90ac3ad80"
+  integrity sha1-bk+hLAK0kPcQEfi+7una6QrDrYA=
+
 diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.npm.taobao.org/diff-sequences/download/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
@@ -3823,6 +3839,13 @@ dom-converter@^0.2:
   integrity sha1-ZyGp2u4uKTaClVtq/kFncWJ7t2g=
   dependencies:
     utila "~0.4"
+
+dom-helpers@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 dom-helpers@^5.0.1:
   version "5.1.3"
@@ -3901,6 +3924,11 @@ dotenv@8.2.0:
   version "8.2.0"
   resolved "https://registry.npm.taobao.org/dotenv/download/dotenv-8.2.0.tgz?cache=0&sync_timestamp=1571190782798&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdotenv%2Fdownload%2Fdotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha1-l+YZJZradQ7qPk6j4mvO6lQksWo=
+
+dsbridge@3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/dsbridge/-/dsbridge-3.1.4.tgz#2cd598def017df8f729b40d33bc9c72934d44e19"
+  integrity sha512-0PczJDk+SRiJjyfTRIVvAsdmC4CbSb4nbfa/ajr3ZbluCpkIiiftDLBITygj0KIKvNvXHqMdXbBQGn99rWKT9A==
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -5211,7 +5239,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.2.1, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz?cache=0&sync_timestamp=1579737660183&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhoist-non-react-statics%2Fdownload%2Fhoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
@@ -5887,10 +5915,10 @@ isexe@^2.0.0:
   resolved "https://registry.npm.taobao.org/isexe/download/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-ismobilejs@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.npm.taobao.org/ismobilejs/download/ismobilejs-0.5.2.tgz#e81bacf6187c532ad8348355f4fecd6e6adfdce1"
-  integrity sha1-6Bus9hh8UyrYNINV9P7Nbmrf3OE=
+ismobilejs@^1.0.3:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ismobilejs/-/ismobilejs-1.1.1.tgz#c56ca0ae8e52b24ca0f22ba5ef3215a2ddbbaa0e"
+  integrity sha512-VaFW53yt8QO61k2WJui0dHf4SlL8lxBofUuUmwBo0ljPk0Drz2TiuDW4jo3wDcv41qy/SxrJ+VAzJ/qYqsmzRw==
 
 isobject@^2.0.0:
   version "2.1.0"
@@ -7355,11 +7383,6 @@ normalize-range@^0.1.2:
   resolved "https://registry.npm.taobao.org/normalize-range/download/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
-normalize-scroll-left@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/normalize-scroll-left/download/normalize-scroll-left-0.2.0.tgz#9445d74275f303cc661e113329aefa492f58114c"
-  integrity sha1-lEXXQnXzA8xmHhEzKa76SS9YEUw=
-
 normalize-url@1.9.1:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/normalize-url/download/normalize-url-1.9.1.tgz?cache=0&sync_timestamp=1580491128021&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnormalize-url%2Fdownload%2Fnormalize-url-1.9.1.tgz#2cc0d66b31ea23036458436e3620d85954c66c3c"
@@ -7960,10 +7983,10 @@ pnp-webpack-plugin@1.6.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-popper.js@^1.14.1:
+popper.js@^1.16.1-lts:
   version "1.16.1"
-  resolved "https://registry.npm.taobao.org/popper.js/download/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
-  integrity sha1-KiI8s9x7YhPXQOQDcr5A3kPmWxs=
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.25:
   version "1.0.25"
