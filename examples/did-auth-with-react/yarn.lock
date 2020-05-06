@@ -2,26 +2,26 @@
 # yarn lockfile v1
 
 
-"@arcblock/did-connect@^0.75.3":
-  version "0.75.3"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-0.75.3.tgz#1605da38994d298b7de3f05b3b1b2624819d0473"
-  integrity sha512-53dndrt6VwKr7ftYc5zTQxNiPhF/zMZBTzzn7UoxvOJNJXp0rRZl63JTgVYr3oBd+b1/CAV1hBBvnx7WD2aJSA==
+"@arcblock/did-connect@^0.77.3":
+  version "0.77.3"
+  resolved "https://registry.npm.taobao.org/@arcblock/did-connect/download/@arcblock/did-connect-0.77.3.tgz#2a4a4640427a4fe447513df888b58e0ff9190d9f"
+  integrity sha1-KkpGQEJ6T+RHUT34iLWOD/kZDZ8=
   dependencies:
-    "@arcblock/did-react" "^0.75.3"
-    "@arcblock/ux" "^0.75.3"
+    "@arcblock/did-react" "^0.77.3"
+    "@arcblock/ux" "^0.77.3"
     "@material-ui/core" "^4.9.7"
     core-js "^3.6.4"
     react-use "^13.22.4"
     styled-components "^5.0.0"
 
-"@arcblock/did-react@^0.75.3":
-  version "0.75.3"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-react/-/did-react-0.75.3.tgz#226f7de6c729ebba32d8ca6a6c4b4a5063435528"
-  integrity sha512-zhPpwN3u4NyxY0OfdHJunoodEsVUqK39rfi2DjKmuSY++82jcTuTQBXPj3gBwjSBbHlb0jWMyRpR/X03PgNTBw==
+"@arcblock/did-react@^0.77.3":
+  version "0.77.3"
+  resolved "https://registry.npm.taobao.org/@arcblock/did-react/download/@arcblock/did-react-0.77.3.tgz#14d53fab98249a3c2155ea2662160d8a3d5683a5"
+  integrity sha1-FNU/q5gkmjwhVeomYhYNij1Wg6U=
   dependencies:
     "@arcblock/event-client" "^1.0.23"
-    "@arcblock/react-hooks" "^0.75.0"
-    "@arcblock/ux" "^0.75.3"
+    "@arcblock/react-hooks" "^0.77.0"
+    "@arcblock/ux" "^0.77.3"
     "@material-ui/core" "^4.9.7"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -42,21 +42,21 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/react-hooks@^0.75.0":
-  version "0.75.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-0.75.0.tgz#a3cf2151c1acde2f9e3d948f4510963a2b207627"
-  integrity sha512-3+oLdF0h6guEmKNAVi4xyFKcKMOXkWMWt9rfAYRpx3fF61/rbpyW/b412heSjdrUQyJ/px1ha3QWi7oR/qqQow==
+"@arcblock/react-hooks@^0.77.0":
+  version "0.77.0"
+  resolved "https://registry.npm.taobao.org/@arcblock/react-hooks/download/@arcblock/react-hooks-0.77.0.tgz#77f7993f142404dc8796466503cea7361d26bad0"
+  integrity sha1-d/eZPxQkBNyHlkZlA86nNh0mutA=
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^0.75.3":
-  version "0.75.3"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-0.75.3.tgz#c514d37d83d3404eb53faf4ed0ce7b011dcb61b4"
-  integrity sha512-4x+5MiOKp4m207wU0gHhuJLx+7QTnA3TsP3s5mESKjUXHRjxbodLfhU5fSjJgWGn06NVUZm9YgWW7DTKB/bNcA==
+"@arcblock/ux@^0.77.3":
+  version "0.77.3"
+  resolved "https://registry.npm.taobao.org/@arcblock/ux/download/@arcblock/ux-0.77.3.tgz#5ef066a53b6a0315361fa7d6264e662c5bbcdc14"
+  integrity sha1-XvBmpTtqAxU2H6fWJk5mLFu83BQ=
   dependencies:
-    "@arcblock/react-hooks" "^0.75.0"
+    "@arcblock/react-hooks" "^0.77.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@material-ui/core" "^4.9.7"
     "@material-ui/icons" "4.5.1"
@@ -69,7 +69,7 @@
     graphiql "^0.13.2"
     graphiql-code-exporter "^2.0.5"
     graphiql-explorer "^0.4.3"
-    graphql "^14.4.2"
+    graphql "^14.6.0"
     highlight.js "^9.15.8"
     js-cookie "^2.2.0"
     react-helmet "^5.2.1"
@@ -5096,7 +5096,7 @@ graphql-request@^1.5.0:
   dependencies:
     cross-fetch "2.2.2"
 
-graphql@^14.4.2:
+graphql@^14.6.0:
   version "14.6.0"
   resolved "https://registry.npm.taobao.org/graphql/download/graphql-14.6.0.tgz#57822297111e874ea12f5cd4419616930cd83e49"
   integrity sha1-V4IilxEeh06hL1zUQZYWkwzYPkk=
